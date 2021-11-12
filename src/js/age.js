@@ -1,26 +1,32 @@
 export default class Person {
-  constructor(age) {
+  constructor(age, lifeExpect) {
     this.age = age;
+    this.lifeExpect = lifeExpect;
   }
 
-  mercuryAge(mercAge){
-    mercAge = Math.floor(this.age / .24);
-    console.log(mercAge);
+  mercuryAge(){
+    this.mercAge = Math.floor(this.age / .24);
+    return this.mercAge;
   }
 
-  venusAge(venusAge){
-    venusAge = Math.floor(this.age / .62);
-    return venusAge;
+  venusAge(){
+    this.venusAge = Math.floor(this.age / .62);
+    return this.venusAge;
 
   }
-  marsAge(marsAge){
-    marsAge = Math.floor(this.age / 1.88);
-    return marsAge;
+  marsAge(){
+    this.marsAge = Math.floor(this.age / 1.88);
+    return this.marsAge;
   }
-  jupiterAge(jupiterAge){
-    jupiterAge = Math.floor(this.age / 11.86);
-    return jupiterAge;
+  jupiterAge(){
+    this.jupiterAge = Math.floor(this.age / 11.86);
+    return this.jupiterAge;
   }
+  lifeLeft(){
+  }
+}     
+
+
   //lifeexpectancy
       // 20yrs old. 75 le. 55 yrs left
       // mer - x years left
@@ -28,4 +34,3 @@ export default class Person {
       // earth - 20yrs old. 75 le. 55yrs left
       // mars - 29.2 mars years left
       // j -  x years left
-}     

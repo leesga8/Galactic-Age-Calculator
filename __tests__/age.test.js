@@ -4,7 +4,7 @@ describe('Person', () => {
   let person;
 
   beforeEach(() => {
-    person = new Person(20)
+    person = new Person(20, 75)
   })
   test('should create an person object with 1 age parameter', () => {
     expect(person.age).toEqual(20);
@@ -21,5 +21,7 @@ describe('Person', () => {
   test('should return age divided by 11.86 to equal jupiter years', () =>{
     expect(person.jupiterAge()).toEqual(1);
   })
-  
+  test('should return return life left when inputted life expectancy', () =>{
+    expect(person.lifeLeft()).toEqual(55);
+  })
 });
