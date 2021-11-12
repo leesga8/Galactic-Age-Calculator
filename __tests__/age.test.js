@@ -6,7 +6,8 @@ describe('Person', () => {
     const person = new Person(20);
     expect(person.age).toEqual(20);
   })
-  // test('should return age in mercury years', () =>{
-  //   const mercAge = new 
-  // })
+  test('should return age divided by .24 to equal mercury years', () =>{
+    const person = new Person(20)
+    expect(person.mercuryAge).toEqual(83);
+  })
 });
