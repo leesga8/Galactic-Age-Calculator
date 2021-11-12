@@ -18,4 +18,7 @@ describe('Person', () => {
   test('should return age divided by 1.88 to equal mars years', () =>{
     expect(person.marsAge()).toEqual(10);
   })
+  test('should return age divided by 11.86 to equal jupiter years', () =>{
+    expect(person.jupiterAge()).toEqual(10);
+  })
 });
