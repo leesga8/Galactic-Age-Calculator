@@ -14,6 +14,7 @@ export default class Person {
 
   }
   marsAge(marsAge){
-
+    marsAge = Math.floor(this.age / 1.88);
+    return marsAge;
   }
 }     
