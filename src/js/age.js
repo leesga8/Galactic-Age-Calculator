@@ -3,9 +3,9 @@ export default class Person {
     this.age = age;
   }
 
-  mercuryAge(){
-  //   mercAge = this.age / .24;
-  //   return this.mercAge;
+  mercuryAge(mercAge){
+    mercAge = Math.floor(this.age / .24);
+    return mercAge;
   }
 
 }    

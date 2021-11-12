@@ -8,6 +8,6 @@ describe('Person', () => {
   })
   test('should return age divided by .24 to equal mercury years', () =>{
     const person = new Person(20)
-    expect(person.mercuryAge).toEqual(83);
+    expect(person.mercuryAge()).toEqual(83);
   })
 });
