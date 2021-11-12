@@ -12,4 +12,7 @@ describe('Person', () => {
   test('should return age divided by .24 to equal mercury years', () =>{
     expect(person.mercuryAge()).toEqual(83);
   })
+  test('should return age divided by .62 to equal venus years', () =>{
+    expect(person.venusAge()).toEqual(32);
+  })
 });

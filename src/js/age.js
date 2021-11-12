@@ -8,4 +8,12 @@ export default class Person {
     return mercAge;
   }
 
-}    
+  venusAge(venusAge){
+    venusAge = Math.floor(this.age / .62);
+    return venusAge;
+
+  }
+  marsAge(marsAge){
+
+  }
+}     
