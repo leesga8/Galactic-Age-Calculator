@@ -1,7 +1,6 @@
-// export default class OBJECT {
-//   constructor() {
-//   }
+export default class Person {
+  constructor(age) {
+    
+  }
 
-//   checkType() {
-//   }
-// }    
+}    
