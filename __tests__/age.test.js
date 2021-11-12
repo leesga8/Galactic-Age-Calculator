@@ -21,4 +21,5 @@ describe('Person', () => {
   test('should return age divided by 11.86 to equal jupiter years', () =>{
     expect(person.jupiterAge()).toEqual(1);
   })
+  
 });

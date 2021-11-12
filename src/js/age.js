@@ -5,7 +5,7 @@ export default class Person {
 
   mercuryAge(mercAge){
     mercAge = Math.floor(this.age / .24);
-    return mercAge;
+    console.log(mercAge);
   }
 
   venusAge(venusAge){
@@ -21,4 +21,11 @@ export default class Person {
     jupiterAge = Math.floor(this.age / 11.86);
     return jupiterAge;
   }
+  //lifeexpectancy
+      // 20yrs old. 75 le. 55 yrs left
+      // mer - x years left
+      // v - x years left
+      // earth - 20yrs old. 75 le. 55yrs left
+      // mars - 29.2 mars years left
+      // j -  x years left
 }     
