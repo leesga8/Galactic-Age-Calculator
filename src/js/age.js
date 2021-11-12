@@ -18,5 +18,7 @@ export default class Person {
     return marsAge;
   }
   jupiterAge(jupiterAge){
+    jupiterAge = Math.floor(this.age / 11.86);
+    return jupiterAge;
   }
 }     
