@@ -1,9 +1,8 @@
-
 // import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import OBJECT from './js/filename.js';
+// import OBJECT from './js/filename.js';
 
 // $(document).ready(function() {
 //   $('#triangle-checker-form').submit(function(event) {
