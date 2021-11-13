@@ -4,13 +4,17 @@ describe('Person', () => {
   let person;
 
   beforeEach(() => {
-    person = new Person(20, 75)
+    person = new Person(20, 75);
+    person.lifeLeft();
   })
   test('should create an person object with 1 age parameter', () => {
     expect(person.age).toEqual(20);
+    expect(person.yrsLeft).toEqual(55)
   })
   test('should return age divided by .24 to equal mercury years', () =>{
-    expect(person.mercuryAge()).toEqual(83);
+    person.mercuryAge()
+    expect(person.mercAge).toEqual(83);
+    expect(person.mercyrsLeft).toEqual(229)
   })
   test('should return age divided by .62 to equal venus years', () =>{
     expect(person.venusAge()).toEqual(32);
