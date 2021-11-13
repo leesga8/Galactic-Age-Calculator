@@ -6,11 +6,12 @@ export default class Person {
 
   mercuryAge(){
     this.mercAge = Math.floor(this.age / .24);
-    this.mercyrsLeft = Math.floor(this.yrsLeft / .24)
+    this.mercyrsLeft = Math.floor(this.yrsLeft / .24);
   }
 
   venusAge(){
     this.venusAge = Math.floor(this.age / .62);
+    this.venusyrsLeft = Math.floor(this.yrsLeft / .62);
 
   }
   marsAge(){

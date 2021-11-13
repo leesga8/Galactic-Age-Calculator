@@ -17,7 +17,9 @@ describe('Person', () => {
     expect(person.mercyrsLeft).toEqual(229)
   })
   test('should return age divided by .62 to equal venus years', () =>{
-    expect(person.venusAge()).toEqual(32);
+    person.venusAge()
+    expect(person.venusAge).toEqual(32);
+    expect(person.venusyrsLeft).toEqual(88)
   })
   test('should return age divided by 1.88 to equal mars years', () =>{
     expect(person.marsAge()).toEqual(10);
