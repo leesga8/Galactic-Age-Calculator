@@ -22,9 +22,11 @@ export default class Person {
     this.jupiterAge = Math.floor(this.age / 11.86);
     return this.jupiterAge;
   }
-  lifeLeft(){
+  lifeLeft(){    
+    this.yrsLeft = this.lifeExpect - this.age;
+    return this.yrsLeft;
   }
-}     
+}  
 
 
   //lifeexpectancy
