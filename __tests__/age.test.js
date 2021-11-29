@@ -36,6 +36,6 @@ describe('Person', () => {
   })
   test('should return the number of years they have lived past life expectancy', () => {
     const person1 = new Person(90, 75);
-    expect(person1.yearsPast()).toEqual(15)
+    expect(person1.lifeLeft()).toEqual(15)
   })
 });
