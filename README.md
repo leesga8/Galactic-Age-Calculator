@@ -17,7 +17,7 @@
 
 ## Description
 
-This webpage will take your age and convert to the age on other planets! It will also the life expectancy on each planet and how many years you have left. 
+This webpage will take your age and show your age on other planets! It will also show how many years you have left or gone past your life expectancy on each planet. Life expectancy is set to 75.  
 
 ## Setup/Installation Requirements
 
