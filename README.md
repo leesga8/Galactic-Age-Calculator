@@ -16,11 +16,18 @@
 
 ## Description
 
+This webpage will take your age and convert to the age on other planets! It will also the life expectancy on each planet and how many years you have left. 
 
 ## Setup/Installation Requirements
 
-*
-*
+* Go to https://github.com/leesga8/Galactic-Age-Calculator
+* Click Green Code button and copy URL
+* Open terminal and navigate to root directory
+* Type in git clone and the URL
+* Navigate to project directory
+* Open code in Editor
+* Run "npm install" in terminal
+* Run "npm build" before "npm start"
 
 ## Known Bugs
 

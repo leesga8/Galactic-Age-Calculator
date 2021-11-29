@@ -34,4 +34,7 @@ describe('Person', () => {
   test('should return return life left when inputted life expectancy', () =>{
     expect(person.lifeLeft()).toEqual(55);
   })
+  test('should return the number of years they have lived past life expectancy', () => {
+    expect(person.yearsPast()).toEqual()
+  })
 });
