@@ -10,7 +10,7 @@ export default class Person {
   }
 
   earthAge() {
-    this.earthAge = Math.floor(this.age);
+    this.earthAge = this.age;
     this.earthyrsLeft = Math.abs(Math.floor(this.yrsLeft));
   }
   

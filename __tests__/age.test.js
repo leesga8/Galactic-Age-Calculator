@@ -31,6 +31,12 @@ describe('Person', () => {
     expect(person.jupiterAge).toEqual(1);
     expect(person.jupiteryrsLeft).toEqual(4);
   })
+
+  test('should return earth age', () =>{
+    person.earthAge()
+    expect(person.earthAge).toEqual(20)
+  })
+
   test('should return return life left when inputted life expectancy', () =>{
     expect(person.lifeLeft()).toEqual(55);
   })

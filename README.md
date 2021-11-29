@@ -28,7 +28,8 @@ This webpage will take your age and show your age on other planets! It will also
 * Navigate to project directory
 * Open code in Editor
 * Run "npm install" in terminal
-* Run "npm build" before "npm start"
+* Run "npm build" and then, "npm start" to open project in web browser
+* You can also run "npm run test" to see test coverage
 
 ## Known Bugs
 
