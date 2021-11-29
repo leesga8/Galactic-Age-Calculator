@@ -13,6 +13,7 @@
 * _Jquery_
 * _Git_
 * _Jest_
+* _Webpack_
 
 ## Description
 
