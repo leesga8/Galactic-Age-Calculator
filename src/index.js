@@ -16,6 +16,9 @@ function planets(user) {
 function show(person1) {
   $('#results').append(`Earth Age: ${person1.earthAge}<br>Years Left: ${person1.earthyrsLeft}<br>`);
   $('#results').append(`Mercury Age: ${person1.mercAge}<br>Years Left: ${person1.mercyrsLeft}<br>`);
+  $('#results').append(`Venus Age: ${person1.venusAge}<br>Years Left: ${person1.venusyrsLeft}<br>`);
+  $('#results').append(`Mars Age: ${person1.marsAge}<br>Years Left: ${person1.marsyrsLeft}<br>`);
+  $('#results').append(`Jupiter Age: ${person1.jupiterAge}<br>Years Left: ${person1.jupiteryrsLeft}<br>`);
 
 }
 
