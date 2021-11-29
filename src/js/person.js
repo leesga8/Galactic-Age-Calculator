@@ -31,10 +31,13 @@ export default class Person {
   }
   yearsPast() {
     if (this.age > this.lifeExpect) {
-        return `You have lived ${Math.abs(this.mercyrsLeft- this.mercAge)} years past life expectancy on Mercury.
-                You have lived ${Math.abs(this.venusyrsLeft- this.mercAge)} years past life expectancy on Earth.
-                You have lived ${Math.abs(this.marsyrsLeft- this.mercAge)} years past life expectancy on Mars.
-                You have lived ${Math.abs(this.jupiteryrsLeft- this.mercAge)} years past life expectancy on Jupiter.`
+        return Math.abs(this.age - this.lifeExpect)
+        
+        
+        // `You have lived ${Math.abs(this.mercyrsLeft- this.mercAge)} years past life expectancy on Mercury.
+        //         You have lived ${Math.abs(this.venusyrsLeft- this.mercAge)} years past life expectancy on Earth.
+        //         You have lived ${Math.abs(this.marsyrsLeft- this.mercAge)} years past life expectancy on Mars.
+        //         You have lived ${Math.abs(this.jupiteryrsLeft- this.mercAge)} years past life expectancy on Jupiter.`
     }
   }
 }  

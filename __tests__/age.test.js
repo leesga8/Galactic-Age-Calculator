@@ -1,4 +1,4 @@
-import Person from './../src/js/age'
+import Person from './../src/js/person.js'
 
 describe('Person', () => {
   let person;
@@ -35,6 +35,7 @@ describe('Person', () => {
     expect(person.lifeLeft()).toEqual(55);
   })
   test('should return the number of years they have lived past life expectancy', () => {
-    expect(person.yearsPast()).toEqual()
+    const person1 = new Person(90, 75);
+    expect(person1.yearsPast()).toEqual(15)
   })
 });

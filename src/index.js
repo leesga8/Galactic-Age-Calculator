@@ -1,16 +1,26 @@
-// import $ from 'jquery';
+import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-// import OBJECT from './js/filename.js';
+import Person from './js/person';
 
-// $(document).ready(function() {
-//   $('#triangle-checker-form').submit(function(event) {
-//     event.preventDefault();
-//     const length1 = parseInt($('#length1').val());
-//     const length2 = parseInt($('#length2').val());
-//     const length3 = parseInt($('#length3').val());
-//     const triangle = new Triangle(length1, length2, length3);
-//     const response = triangle.checkType();
-//     $('#response').append(`<p>${response}</p>`);
-//   });
+
+function planets(user) {
+  user.lifeLeft();
+  user.mercuryAge();
+  user.venusAge();
+  user.marsAge();
+  user.jupiterAge();
+}
+
+
+  $(document).ready(function(){
+    $("#formOne").submit(function(element){
+      element.preventDefault();
+      const age = $("#inputAge").val();
+      const lifeExpect = 75;
+      let example = new Person(age, lifeExpect);
+      planets(example);
+      
+    });
+  });
